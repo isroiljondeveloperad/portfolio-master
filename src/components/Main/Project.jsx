@@ -15,9 +15,9 @@ import { Pagination, Autoplay } from 'swiper/modules';
 // Vite way to import all images in a folder
 const images = import.meta.glob('../../img/proyecto-*.jpg', { eager: true });
 const proyectImg = Object.entries(images).reduce((acc, [path, mod]) => {
-  const fileName = path.split('/').pop();
-  acc[fileName] = mod.default;
-  return acc;
+    const fileName = path.split('/').pop();
+    acc[fileName] = mod.default;
+    return acc;
 }, {});
 
 const Project = () => {
@@ -67,7 +67,7 @@ const Project = () => {
                             <p className="tecnologias">
                                 HTML5<span> -</span> CSS<span> -</span> JavaScript<span> -</span> Bootstrap
                             </p>
-                            <a href="https://nahuel61920.github.io/Justice/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://justice-sigma.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/isroiljondeveloperad/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
@@ -82,7 +82,7 @@ const Project = () => {
                             <p className="tecnologias">
                                 HTML5<span> -</span> CSS<span> -</span> JavaScript
                             </p>
-                            <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://powerengine.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/isroiljondeveloperad/Powerengine" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
@@ -97,8 +97,8 @@ const Project = () => {
                             <p className="tecnologias">
                                 HTML5<span> -</span> CSS<span> -</span> JavaScript<span> -</span> Bootstrap
                             </p>
-                            <a href="https://nahuel61920.github.io/EveryRunning/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/EveryRunning" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://running-six-ebon.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/isroiljondeveloperad/" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -112,7 +112,7 @@ const Project = () => {
                             <p className="tecnologias">
                                 HTML5<span> -</span> CSS<span> -</span> Sass<span> -</span> JavaScript
                             </p>
-                            <a href="https://nahuel61920.github.io/shop-tec/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://shop-nine-virid.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/isroiljondeveloperad/shop" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
@@ -127,7 +127,7 @@ const Project = () => {
                             <p className="tecnologias">
                                 HTML5<span> -</span> CSS<span> -</span> JavaScript
                             </p>
-                            <a href="https://nahuel61920.github.io/ElegantHand/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://elegant-hand-ruby.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/isroiljondeveloperad/elegantHand" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
